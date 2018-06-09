@@ -14,9 +14,9 @@ class PublicLibrary extends Component {
         return (
             <Grid>
                 <Switch>
-                    <Route path='library-react/catalog' component={Catalog} />
-                    <Route path='library-react/contact' component={Contact} />
-                    <Route path='library-react/' component={Home}/>
+                    <Route path='/library-react/catalog' component={Catalog} />
+                    <Route path='/library-react/contact' component={Contact} />
+                    <Route path='/library-react/' component={Home}/>
                 </Switch>
             </Grid>
         );
