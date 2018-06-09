@@ -6,9 +6,9 @@ import NavbarItems from '../../components/Navigation/NavigationItems/navigationI
 class Library extends Component {
     state = {
         navItems: [
-            { link: 'https://carlosrebollar.github.io/library-react/', text: 'Home' },
-            { link: 'https://carlosrebollar.github.io/library-react/catalog', text: 'Catalog' },
-            { link: 'https://carlosrebollar.github.io/library-react/contact', text: 'Contact' }
+            { link: '/', text: 'Home' },
+            { link: '/catalog', text: 'Catalog' },
+            { link: '/contact', text: 'Contact' }
         ]
     }
     render() {
